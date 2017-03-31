@@ -31,6 +31,8 @@
 		140C0D7A1AE2DB8C0029C90A /* KVNUIImage_KVNEmptySpec.m in Sources */ = {isa = PBXBuildFile; fileRef = 140C0D791AE2DB8C0029C90A /* KVNUIImage_KVNEmptySpec.m */; };
 		1482704A1AE2B4E500873272 /* KVNProgressConfigurationTestsSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = 148270491AE2B4E500873272 /* KVNProgressConfigurationTestsSpec.m */; };
 		1482704E1AE2CBB100873272 /* KVNUIColor+KVNContrastSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = 1482704D1AE2CBB100873272 /* KVNUIColor+KVNContrastSpec.m */; };
+		B1C6A7DF1E8EE00C003BCBAD /* KVNRotationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0ABBF99A1D65E560004FED77 /* KVNRotationViewController.m */; };
+		B1C6A7E01E8EE00F003BCBAD /* KVNRotationViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 0ABBF9991D65E560004FED77 /* KVNRotationViewController.h */; };
 		B7AEA695F14877870205F81C /* libPods-KVNProgressTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B43D6870AC5276C24F2B9384 /* libPods-KVNProgressTests.a */; };
 		FF5F4FEE1C18F0F400177A67 /* KVNProgressKit.h in Headers */ = {isa = PBXBuildFile; fileRef = FF5F4FED1C18F0F400177A67 /* KVNProgressKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		FF5F4FF31C18F17D00177A67 /* UIImage+KVNImageEffects.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AA0DD271930E62A00FDD29F /* UIImage+KVNImageEffects.m */; };
@@ -286,6 +288,7 @@
 				FF5F4FF91C18F18E00177A67 /* UIImage+KVNImageEffects.h in Headers */,
 				FF5F4FFA1C18F18E00177A67 /* UIImage+KVNEmpty.h in Headers */,
 				FF5F4FFB1C18F18E00177A67 /* UIColor+KVNContrast.h in Headers */,
+				B1C6A7E01E8EE00F003BCBAD /* KVNRotationViewController.h in Headers */,
 				FF5F4FFC1C18F18E00177A67 /* KVNProgress.h in Headers */,
 				FF5F4FFD1C18F18E00177A67 /* KVNProgressConfiguration.h in Headers */,
 			);
@@ -514,6 +517,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B1C6A7DF1E8EE00C003BCBAD /* KVNRotationViewController.m in Sources */,
 				FF5F4FF31C18F17D00177A67 /* UIImage+KVNImageEffects.m in Sources */,
 				FF5F4FF41C18F17D00177A67 /* UIImage+KVNEmpty.m in Sources */,
 				FF5F4FF51C18F17D00177A67 /* UIColor+KVNContrast.m in Sources */,
@@ -811,6 +815,7 @@
 				FF5F4FF11C18F0F400177A67 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
